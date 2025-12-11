@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: natasha-nginx   
 spec:
-  replicas: 3
+  replicas: 5
   selector:
     matchLabels:
       app: natasha-app    
