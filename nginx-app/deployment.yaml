@@ -1,16 +1,16 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: natasha-nginx   
+  name: sukhodolsky-nginx   
 spec:
   replicas: 3
   selector:
     matchLabels:
-      app: natasha-app    
+      app: sukhodolsky-app    
   template:
     metadata:
       labels:
-        app: natasha-app  
+        app: sukhodolsky-app  
     spec:
       containers:
       - name: nginx
