@@ -4,7 +4,7 @@ metadata:
   name: sukhodolsky-service  
 spec:
   selector:
-    app: natasha-app  
+    app: sukhodolsky-app 
   ports:
   - port: 80
     targetPort: 80
